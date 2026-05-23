@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.p1kacat.pcccls.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "ItemBlockRenderTypesMixin",
+    "LevititeShaderManagerMixin",
+    "PhysicsStaffClientHandlerMixin",
+    "PhysicsStaffItemRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

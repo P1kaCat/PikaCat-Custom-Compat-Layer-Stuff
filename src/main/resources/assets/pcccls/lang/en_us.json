@@ -1,0 +1,11 @@
+{
+  "pcccls.configuration.title": "PCCCLS Config",
+  "pcccls.configuration.section.pcccls-client.toml": "Shader Runtime Compat",
+  "pcccls.configuration.section.pcccls-client.toml.title": "Shader Runtime Compat",
+  "pcccls.configuration.enableVibrantCloudsCompat": "Enable Vibrant Clouds Compat",
+  "pcccls.configuration.enableSimpleCloudsCompat": "Require Simple Clouds Compat",
+  "pcccls.configuration.checkIntervalTicks": "Runtime Check Interval (Ticks)",
+  "pcccls.configuration.shaderNameMatch": "Shader Name Match",
+  "pcccls.configuration.fixPhysicsStaffFocus": "Fix Physics Staff Beam Focus",
+  "pcccls.configuration.fixLevititeShaderFlicker": "Fix Levitite Shader Flicker"
+}
