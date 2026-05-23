@@ -1,25 +1,14 @@
 
-Installation information
-=======
+# PikaCat Custom Compat Layer & Stuff
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+PikaCat Custom Compat Layer & Stuff is a client-side compatibility layer that patches visual issues caused by specific mod + shader combinations, without modifying the original mods.
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+It focuses on shader-heavy setups and applies targeted runtime fixes only when needed.
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+Current goals include:
+- Better compatibility for Vibrant Clouds with Simple Clouds and related setups
+- Visual fixes for Create Aeronautics content, including Levitite variants
+- Physics Staff rendering/alignment fixes for Simulated under shaders
+- Extra small compatibility and visual QoL patches over time
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
-
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+The objective is to keep visuals stable and consistent in large modpacks, even with shaders enabled.
